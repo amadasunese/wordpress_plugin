@@ -1,0 +1,129 @@
+# Inline Related Articles
+
+---
+
+## 📌 Description
+
+**Inline Related Articles** is a lightweight but powerful editorial plugin that automatically injects **contextually relevant articles** inside the body of your posts.
+
+Built for **news, blogs, and content-heavy websites**, it helps:
+- Increase page views
+- Reduce bounce rate
+- Improve internal linking & SEO
+- Enhance reader engagement
+
+Unlike traditional “related posts” widgets, this plugin places links **inside the article flow**, exactly where readers are most engaged.
+
+---
+
+## ✨ Key Features
+
+### 🔧 Admin Settings Page
+- Choose **multiple paragraph positions** (e.g. 3, 7, 12)
+- Set number of related articles per block
+- Toggle **AI-powered relevance**
+- No coding required
+
+### 📰 Multiple Inline Blocks
+- Insert more than one related articles block per article
+- Automatically skips short posts
+- Works on **already published content**
+
+### AI-Powered Relevance (Offline)
+- Uses content similarity scoring
+- No external API required
+- Privacy-friendly and fast
+- Falls back to category relevance if AI is disabled
+
+### ⚡ Performance-Friendly
+- Lightweight queries
+- No page builder dependency
+- Compatible with caching plugins
+
+### Compatibility
+- PHP **5.6+**
+- WordPress **5.5+**
+- Works with classic editor & block editor
+- Newsroom-safe
+
+---
+
+## How It Works
+
+1. The plugin splits post content into paragraphs
+2. It injects related articles after selected paragraph numbers
+3. Related articles are ranked using:
+   - AI similarity scoring (optional)
+   - Category fallback logic
+4. Results are displayed in a clean, responsive inline box
+
+---
+
+## Installation
+
+### Automatic Installation
+1. Upload the plugin ZIP via **Plugins → Add New**
+2. Activate the plugin
+3. Go to **Settings → Inline Related Articles**
+
+### Manual Installation
+1. Upload the plugin folder to `/wp-content/plugins/`
+2. Activate the plugin via WordPress admin
+3. Configure settings
+
+---
+
+## Configuration
+
+Navigate to:
+
+Settings → Inline Related Articles
+
+### Available Options
+- **Paragraph Numbers:**  
+  Comma-separated list (e.g. `3,7,12`)
+- **Number of Articles:**  
+  Choose how many links to show per block
+- **AI Relevance:**  
+  Enable or disable intelligent ranking
+
+---
+
+
+---
+
+## 📈 SEO Benefits
+
+- Improves internal link structure
+- Keeps users on site longer
+- Boosts crawl depth
+- Reduces bounce rate
+- Ideal for news and evergreen content
+
+---
+
+## 👤 Author
+
+**Ese Amadasun**  
+Journalist | Software Engineer | Data Analyst  
+
+---
+
+## 📝 License
+
+This plugin is licensed under the **GNU General Public License v2 or later**.
+
+You are free to:
+- Use
+- Modify
+
+Under the terms of the GPL.
+
+---
+
+## ❤️ Support & Contributions
+
+Found a bug or have a feature request?  
+Open an issue or submit a pull request.
+
+Built for **newsrooms, publishers, and serious content platforms**.
