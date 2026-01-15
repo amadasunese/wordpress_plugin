@@ -1,17 +1,23 @@
 <?php
-/**
+
+ /**
  * Plugin Name: ObserverMan Pro
+ * Plugin URI: https://wordpress.org/plugins/observerman-pro/
  * Description: AI-powered contextual assistant for WordPress (Pro Edition)
  * Version: 1.0.1
  * Author: Ese Amadasun
+ * Author URI: https://amadasunese.pythonanywhere.com
  * Text Domain: observerman-pro
+ * Domain Path: /languages
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
-define('OBSERVERMAN_PRO_VERSION', '1.0.0');
+define('OBSERVERMAN_PRO_VERSION', '1.0.1');
 define('OBSERVERMAN_PRO_PATH', plugin_dir_path(__FILE__));
 define('OBSERVERMAN_PRO_URL', plugin_dir_url(__FILE__));
 

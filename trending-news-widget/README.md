@@ -36,9 +36,9 @@ Posts with the highest views within the selected time window.
 
 
 ## Changelog
-= 1.0.0 =
+* 1.0.0
 * Initial release
 
-Upgrade Notice
+## Upgrade Notice
 * 1.0.2
-First stable release.
+* First stable release.
