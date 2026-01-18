@@ -1,12 +1,12 @@
 <?php
+
 /**
  * Plugin Name: EA Digital Newspaper Library
- * Description: Newspaper-style digital archive with PDFs, filters, and collapsible archives.
+ * Description: Create a professional digital newspaper and PDF archive with a featured current edition.
  * Version: 1.0.0
  * Author: Ese Amadasun
- * Text Domain: EA-digital-newspaper
  * Author URI: https://amadasunese.pythonanywhere.com
- * Text Domain: ea-digital-newspaper-library
+ * Text Domain: ea-digital-newspaper
  * Domain Path: /languages
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
