@@ -1,0 +1,395 @@
+/* ===== GLOBAL ===== */
+.tno-archive,
+.tno-single {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* ===== BUTTONS ===== */
+.tno-btn {
+    display: inline-block;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid #111;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.tno-btn-dark {
+    background: #111;
+    color: #fff;
+}
+
+
+
+/* ===== TODAY’S EDITION (FEATURED) ===== */
+.tno-today {
+    border-bottom: 2px solid #000;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+}
+
+/* Featured container look */
+.tno-today .card {
+    background: #dee2e6;
+    border-radius: 6px;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Center the row and its content */
+.tno-today .row {
+    justify-content: center;
+    text-align: center;
+}
+
+/* Ensure columns don’t feel offset */
+.tno-today [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Increase thumbnail size */
+.tno-today img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto 1rem;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border-radius: 4px;
+}
+
+/* Text styling */
+.tno-today h4,
+.tno-today h5 {
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Buttons centered */
+.tno-today .d-flex {
+    justify-content: center;
+}
+
+.tno-today .btn {
+    margin-top: 0.5rem;
+}
+
+
+
+/* ===== CURRENT EDITION LAYOUT ===== */
+.tno-current-edition {
+    max-width: 420px;
+    margin: 0 auto;
+    background: #dee2e6;
+}
+
+.tno-current-cover img {
+    max-width: 300px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+
+/* Control thumbnail size safely */
+.edition-cover {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.edition-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .tno-today {
+        padding: 1rem 0;
+    }
+
+    .tno-today img {
+        max-width: 220px;
+        margin-bottom: 1rem;
+    }
+
+    .tno-today .row {
+        text-align: center;
+    }
+}
+
+
+.tno-card {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+}
+
+/* ===== PDF VIEWER ===== */
+.tno-pdf-viewer iframe {
+    width: 100%;
+    height: 80vh;
+    border: 1px solid #ccc;
+}
+
+/* ===== COLLAPSIBLE ARCHIVE ===== */
+.tno-year {
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.tno-months {
+    display: none;
+    margin-left: 1rem;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    .tno-pdf-viewer iframe {
+        height: 60vh;
+    }
+}
+
+
+
+/* ===== HEADER ===== */
+.tno-archive-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.tno-archive-title {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.tno-archive-subtitle {
+    color: #666;
+}
+
+/* ===== FILTER ===== */
+.tno-filter-form {
+    display: grid;
+    grid-template-columns: 1fr 140px 160px auto;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+.tno-filter-form input,
+.tno-filter-form select {
+    padding: 0.5rem;
+}
+@media (max-width: 768px) {
+    .tno-filter-form {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== TODAY CARD ===== */
+.tno-today-card {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1rem;
+}
+@media (max-width: 768px) {
+    .tno-today-card {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== GRID ===== */
+.tno-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.25rem;
+}
+.tno-card {
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.tno-card-body {
+    padding: 0.75rem;
+}
+.tno-card-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ===== COLLAPSIBLE ===== */
+.tno-year summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+.tno-months a {
+    display: inline-block;
+    margin-right: 0.75rem;
+}
+.tno-months a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   DIGITAL EDITIONS – ARCHIVE (CPT)
+========================================================= */
+
+.post-type-archive-digital_edition .digital-editions {
+    padding: 32px 0;
+}
+
+/* =========================================================
+   ARCHIVE HEADER
+========================================================= */
+
+.post-type-archive-digital_edition .edition-title {
+    color: #fff;
+    background-color: #8a0a0a;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.post-type-archive-digital_edition header p {
+    margin-top: 6px;
+    font-size: 0.95rem;
+}
+
+/* =========================================================
+   FILTER PANEL
+========================================================= */
+
+.post-type-archive-digital_edition .card {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.post-type-archive-digital_edition .card label {
+    font-size: 0.85rem;
+}
+
+.post-type-archive-digital_edition .card .btn {
+    background-color: #111;
+    color: #fff;
+    border: none;
+}
+
+.post-type-archive-digital_edition .card .btn:hover {
+    background-color: #000;
+}
+
+/* =========================================================
+   EDITION CARD (GRID ITEMS)
+========================================================= */
+
+.edition-card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    position: relative;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edition-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* =========================================================
+   EDITION THUMBNAIL (PDF FRONT PAGE)
+========================================================= */
+
+/* NEVER CROP NEWSPAPER FRONT PAGES */
+.edition-cover img,
+.edition-card img {
+    width: 100%;
+    height: auto;
+    max-height: 340px;
+    object-fit: contain;
+    background: #f4f4f4;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+/* Paper shadow */
+.edition-cover img {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* =========================================================
+   EDITION META
+========================================================= */
+
+.edition-meta {
+    margin-top: 10px;
+}
+
+.edition-date {
+    font-size: 0.95rem;
+    font-weight: 600;
+    display: block;
+}
+
+/* =========================================================
+   ACTION BUTTONS
+========================================================= */
+
+.edition-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.edition-actions .btn {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.edition-actions .btn-outline-dark {
+    color: #111;
+    border-color: #111;
+}
+
+.edition-actions .btn-outline-dark:hover {
+    background: #111;
+    color: #fff;
+}
+
+/* =========================================================
+   PAGINATION
+========================================================= */
+
+.post-type-archive-digital_edition .pagination,
+.post-type-archive-digital_edition .page-numbers {
+    display: inline-flex;
+    gap: 6px;
+    list-style: none;
+}
+
+.post-type-archive-digital_edition .page-numbers a,
+.post-type-archive-digital_edition .page-numbers span {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.post-type-archive-digital_edition .page-numbers .current {
+    background: #8a0a0a;
+    color: #fff;
+    border-color: #8a0a0a;
+}

@@ -1,4 +1,4 @@
-=== Inline Related Articles Pro ===
+=== EA Inline Related Articles Pro ===
 Contributors: Ese Amadasun
 Donate link: https://eseamadasunese.pythonanywhere.com
 Tags: related posts, inline articles, news seo, internal linking, editorial tools
@@ -13,7 +13,7 @@ Automatically insert inline related articles inside post content to improve enga
 
 == Description ==
 
-Inline Related Articles Pro automatically injects **contextually relevant articles directly inside your post content**, without requiring you to edit existing posts.
+EA Inline Related Articles Pro automatically injects **contextually relevant articles directly inside your post content**, without requiring you to edit existing posts.
 
 Unlike traditional related-post widgets that appear only at the bottom of articles, this plugin places related content **within the article flow**, increasing visibility and engagement.
 
@@ -58,7 +58,7 @@ The plugin works on **already published posts** and is safe for production use.
 = Automatic Installation =
 
 1. Go to Plugins → Add New
-2. Search for “Inline Related Articles Pro”
+2. Search for “EA Inline Related Articles Pro”
 3. Install and activate the plugin
 4. Go to Settings → Inline Related Articles
 

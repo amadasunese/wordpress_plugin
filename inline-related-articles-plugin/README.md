@@ -1,10 +1,10 @@
-# Inline Related Articles
+# EA Inline Related Articles Pro
 
 ---
 
 ## 📌 Description
 
-**Inline Related Articles** is a lightweight but powerful editorial plugin that automatically injects **contextually relevant articles** inside the body of your posts.
+**EA Inline Related Articles Pro** is a lightweight but powerful editorial plugin that automatically injects **contextually relevant articles** inside the body of your posts.
 
 Built for **news, blogs, and content-heavy websites**, it helps:
 - Increase page views

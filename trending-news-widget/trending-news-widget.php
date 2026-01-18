@@ -3,7 +3,7 @@
  * Plugin Name: Trending News Widget
  * Plugin URI: https://wordpress.org/plugins/trending-news-widget/
  * Description: Displays trending news headlines based on recent post views within a configurable time window.
- * Version: 1.0.2
+ * Version: 1.0.0
  * Author: Ese Amadasun
  * Author URI: https://amadasunese.pythonanywhere.com
  * Text Domain: trending-news-widget

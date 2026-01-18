@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Inline Related Articles Pro
- * Description: Inline Related Articles Pro is a lightweight but powerful editorial plugin that automatically injects contextually relevant articles inside the body of your posts.
+ * Plugin Name: EA Inline Related Articles Pro
+ * Description: EA Inline Related Articles Pro is a lightweight but powerful editorial plugin that automatically injects contextually relevant articles inside the body of your posts.
  * Version: 2.0.2
  * Author: Ese Amadasun
  * Author URI: https://amadasunese.pythonanywhere.com
- *  * Text Domain: inline-related-articles-pro
+ *  * Text Domain: ea-inline-related-articles-pro
  * Domain Path: /languages
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html

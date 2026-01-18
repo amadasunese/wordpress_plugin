@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TNO Digital Newspaper 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Digital Editions"
+msgstr ""
+
+msgid "Newspaper PDF"
+msgstr ""
+
+msgid "Upload / Select PDF"
+msgstr ""
+
+msgid "View PDF"
+msgstr ""
+
+msgid "Download PDF"
+msgstr ""
+
+msgid "Today’s Edition"
+msgstr ""
+
+msgid "Back to All Editions"
+msgstr ""

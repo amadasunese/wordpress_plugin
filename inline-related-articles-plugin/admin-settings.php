@@ -6,10 +6,10 @@ if (!defined('ABSPATH')) exit;
  */
 add_action('admin_menu', function () {
     add_options_page(
-        'Inline Related Articles',
-        'Inline Related Articles',
+        'EA Inline Related Articles',
+        'EA Inline Related Articles',
         'manage_options',
-        'inline-related-articles',
+        'ea-inline-related-articles',
         'ira_settings_page'
     );
 });
@@ -62,7 +62,7 @@ function ira_settings_page() {
     $settings = wp_parse_args(get_option('ira_settings', []), $defaults);
     ?>
     <div class="wrap">
-        <h1>Inline Related Articles Settings</h1>
+        <h1>EA Inline Related Articles Settings</h1>
 
         <form method="post" action="options.php">
             <?php 
