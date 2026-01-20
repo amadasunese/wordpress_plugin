@@ -36,34 +36,23 @@ function tno_pdf_meta_box_callback($post) {
 */
 
 function tno_pdf_meta_box_callback($post) {
-
-    wp_nonce_field('tno_save_pdf', 'tno_pdf_nonce');
-
     $pdf = get_post_meta($post->ID, '_tno_pdf', true);
     ?>
-    <input type="text" name="tno_pdf"
-           value="<?php echo esc_attr($pdf); ?>"
-           style="width:100%;" />
-
+    <input type="text" name="tno_pdf" value="<?php echo esc_attr($pdf); ?>" style="width:100%;" />
     <button class="button upload_pdf_button">Upload PDF</button>
 
     <script>
     jQuery(document).ready(function($){
         $('.upload_pdf_button').click(function(e){
             e.preventDefault();
-
             var pdfUploader = wp.media({
                 title: 'Upload PDF',
                 button: { text: 'Use this PDF' },
                 multiple: false
-            });
-
-            pdfUploader.on('select', function(){
+            }).on('select', function(){
                 var attachment = pdfUploader.state().get('selection').first().toJSON();
                 $('input[name="tno_pdf"]').val(attachment.url);
-            });
-
-            pdfUploader.open();
+            }).open();
         });
     });
     </script>
