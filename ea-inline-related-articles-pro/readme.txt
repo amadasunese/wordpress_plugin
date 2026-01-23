@@ -1,10 +1,10 @@
 === EA Inline Related Articles Pro ===
-Contributors: Ese Amadasun
-Donate link: https://eseamadasunese.pythonanywhere.com
+Contributors: amadasunese
+Donate link: https://amadasunese.pythonanywhere.com
 Tags: related posts, inline articles, news seo, internal linking, editorial tools
 Requires at least: 5.5
 Tested up to: 6.9
-Requires PHP: 5.6
+Requires PHP: 8.3
 Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
