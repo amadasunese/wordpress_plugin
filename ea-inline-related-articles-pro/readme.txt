@@ -4,7 +4,7 @@ Donate link: https://amadasunese.pythonanywhere.com
 Tags: related posts, inline articles, news seo, internal linking, editorial tools
 Requires at least: 5.5
 Tested up to: 6.9
-Requires PHP: 8.3
+Requires PHP: 7.4
 Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
